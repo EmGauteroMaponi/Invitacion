@@ -17,6 +17,7 @@
 <meta property="og:image:height" content="1024" />
 <script src="./invitaciones/js/jquery-3.1.1.min.js"></script>
 <script src="./invitaciones/js/bootstrap.min.js"></script>
+<script src="./invitaciones/js/parallax.min.js"></script>
 <!--<link type="image/x-icon" rel="shortcut icon" href="../img/favicon.png">-->
 
 
@@ -62,6 +63,8 @@
 
 <link href="./invitaciones/css/style.css" rel="stylesheet" type="text/css">
 
+<link href="./invitaciones/css/myStyle.css" rel="stylesheet" type="text/css">
+
 <link rel="stylesheet" href="./invitaciones/css/theme6.css" type="text/css" media="screen" />
 
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -70,6 +73,7 @@
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-TSX3KSM');</script>
 
+<link rel="icon" href="./invitaciones/admin/imagenes/A&E.png">
 </head>
 <body id="invitacion" class="body-offcanvas" data-category="Boda">
 	<div class="blackclover"></div>
@@ -99,7 +103,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<div class="navbar-brand" data-demo="Logo" id="navbar-brand">
-					<a href="/"><img data-demo="Logo" class=" logo-white-bg aa mexicodemocasamiento" src='./invitaciones/images/invitame.svg' style="width:150px" alt="logo"></a>
+					<a href="/"><img data-demo="Logo" class=" logo-white-bg aa mexicodemocasamiento" src='./invitaciones/admin/imagenes/A&E.png' style="width:150px" alt="logo"></a>
 				</div>
 			</div>
 			<div class="navbar-scroll collapse navbar-collapse navbar-menu  navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
@@ -132,25 +136,25 @@
 		<ul class="slides animated fadeIn">
 			<li class="homesliderimage" style="background-image:url('./invitaciones/admin/imagenes/994/Principal1.jpg');"> </li>
 		</ul>
+	
+		<div class="scroll-down"></div>
+	</section>
+	
+	<section class="cuenta-regresiva">
+
+		<div class="container">
+			<!-- Contenedor de cuenta regresiva -->
+			<p>Listo...</p>
+			<p id="reloj">¡LLEGO EL GRAN DÍA!</p>
+		
+		</div>
+	
 	</section>
 
 	<script>
 		var screenHeight = $(window).height()-150;
 		$('.screen-adapter').css("height", screenHeight);
 	</script>
-
-
-	<section id="countdown" class="variables" style="background-image:url('./invitaciones/admin/imagenes/994/FondoInvidato.jpg');">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h2 class="headline" style="font-size: 35px !important;"> Datos del invitado </h2> 
-					<h2 class="titprin" style="margin: 40px 0 0 0 !important;">Hector Ochoa Altamirano</h2> 
-					<h2 class="headline" style="margin-top: 3%; font-size: 35px !important;">4 Boletos </h2> 
-					<h1 class="margin" style="font-size: 30px !important;">No Niños</h1> </div>
-			</div>
-		</div>
-	</section>
 
 	<section id="wedding-header" class="wedding-header-single-page">
 		<div class="container">
@@ -246,15 +250,6 @@
 			</div>
 		</div>
 	</section>
-	<section class="container">
-		<div class="row dresscode">
-			<div class="text-center">
-				<h2 class="headline">Dresscode</h2>
-				<img src="./invitaciones/admin/imagenes/994/DRESSCODE-IMGdrescode.jpg" alt="480x320" class="img-responsive center-block img-headline-v2">
-				<h3 class="wed-text" style="font-weight: 100;font-size: 16px;"> Elegante </h3>
-			</div>
-		</div>
-	</section>
 
 	<section id="portfolio">
 		<div class="text-center" style="    margin-bottom: 0px;">
@@ -263,6 +258,57 @@
 		<div name="portfolio" id="homeslider-wrap" class="slimax flexslider screen-adapter">
 			<ul class="slides animated fadeIn">
 			<li class="homesliderimage" style="background-image:url('./invitaciones/admin/imagenes/994/port5.jpg');"> </li><li class="homesliderimage" style="background-image:url('./invitaciones/admin/imagenes/994/port1.jpg');"> </li><li class="homesliderimage" style="background-image:url('./invitaciones/admin/imagenes/994/port2.jpg');"> </li><li class="homesliderimage" style="background-image:url('./invitaciones/admin/imagenes/994/port3.jpg');"> </li><li class="homesliderimage" style="background-image:url('./invitaciones/admin/imagenes/994/port4.jpg');"> </li> </ul>
+		</div>
+	</section>
+
+	<section id="bridsmaid-groosman-header" class="onepage">
+		<div class="container">
+			<div class="text-center">
+				<h2 class="headline">Padrinos</h2>
+			</div>
+		</div>
+	</section>
+
+	<section id="bridsmaid-groosman-content" class="onepage">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-sm-6 col-md-4 animated-element">
+					<div class="thumbnail">
+						<img src="./invitaciones/admin/imagenes/994/PERSONA1-IMGtestigo 1.jpg" class="img-circle animated-element-1" alt="Groosman">
+						<div class="caption animated-element-1">
+							<h3>Adan</h3>
+							<p>Padre</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 animated-element delay1">
+					<div class="thumbnail">
+						<img src="./invitaciones/admin/imagenes/994/PERSONA2-IMGtestigo 4.jpg" class="img-circle animated-element-1" alt="Groosman">
+						<div class="caption animated-element-1">
+							<h3>María</h3>
+							<p>Madre</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 animated-element delay2">
+					<div class="thumbnail">
+						<img src="./invitaciones/admin/imagenes/994/PERSONA3-IMGtestigo 2.jpg" class="img-circle animated-element-1" alt="Groosman">
+						<div class="caption animated-element-1">
+							<h3>Eduardo</h3>
+							<p>Padre</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 animated-element">
+					<div class="thumbnail">
+						<img src="./invitaciones/admin/imagenes/994/PERSONA4-IMGtestigo 5.jpg" class="img-circle animated-element-1" alt="Groosman">
+						<div class="caption animated-element-1">
+							<h3>Graciela</h3>
+							<p>Madre</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -277,186 +323,136 @@
 
 
 	<section id="bridsmaid-groosman-content" class="onepage">
-	<div class="container">
-	<div class="row text-center">
-
-	<div class="col-sm-6 col-md-4 animated-element">
-
-	<div class="thumbnail">
-
-	<img src="./invitaciones/admin/imagenes/994/PERSONA1-IMGtestigo 1.jpg" class="img-circle animated-element-1" alt="Groosman">
-
-	<div class="caption animated-element-1">
-
-	<h3>Matias</h3>
-	<p>Hermano</p>
-	</div>
-
-	</div>
-
-	</div>
-
-
-	<div class="col-sm-6 col-md-4 animated-element delay1">
-
-	<div class="thumbnail">
-
-	<img src="./invitaciones/admin/imagenes/994/PERSONA2-IMGtestigo 4.jpg" class="img-circle animated-element-1" alt="Groosman">
-
-	<div class="caption animated-element-1">
-
-	<h3>Julieta</h3>
-	<p>Hermana</p>
-	</div>
-
-	</div>
-
-	</div>
-
-
-	<div class="col-sm-6 col-md-4 animated-element delay2">
-
-	<div class="thumbnail">
-
-	<img src="./invitaciones/admin/imagenes/994/PERSONA3-IMGtestigo 2.jpg" class="img-circle animated-element-1" alt="Groosman">
-
-	<div class="caption animated-element-1">
-
-	<h3>Joaquin</h3>
-	<p>Primo</p>
-	</div>
-
-	</div>
-
-	</div>
-
-
-	<div class="col-sm-6 col-md-4 animated-element">
-
-	<div class="thumbnail">
-
-	<img src="./invitaciones/admin/imagenes/994/PERSONA4-IMGtestigo 5.jpg" class="img-circle animated-element-1" alt="Groosman">
-
-	<div class="caption animated-element-1">
-
-	<h3>Romina</h3>
-	<p>Hermana</p>
-	</div>
-
-	</div>
-
-	</div>
-
-
-	<div class="col-sm-6 col-md-4 animated-element delay1">
-
-	<div class="thumbnail">
-
-	<img src="./invitaciones/admin/imagenes/994/PERSONA5-IMGtestigo 3.jpg" class="img-circle animated-element-1" alt="Groosman">
-
-	<div class="caption animated-element-1">
-
-	<h3>Ezequiel</h3>
-	<p>Amigo</p>
-	</div>
-
-	</div>
-
-	</div>
-
-
-	<div class="col-sm-6 col-md-4 animated-element delay2">
-
-	<div class="thumbnail">
-
-	<img src="./invitaciones/admin/imagenes/994/PERSONA6-IMGtestigo 6.jpg" class="img-circle animated-element-1" alt="Groosman">
-
-	<div class="caption animated-element-1">
-
-	<h3>Florencia </h3>
-	<p>Amiga</p>
-	</div>
-
-	</div>
-
-	</div>
-
-
-
-
-
-
-
-
-	</div>
-	</div>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-sm-6 col-md-4 animated-element">
+					<div class="thumbnail">
+						<img src="./invitaciones/admin/imagenes/994/PERSONA1-IMGtestigo 1.jpg" class="img-circle animated-element-1" alt="Groosman">
+						<div class="caption animated-element-1">
+							<h3>Joaquin</h3>
+							<p>Amigo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 animated-element delay1">
+					<div class="thumbnail">
+						<img src="./invitaciones/admin/imagenes/994/PERSONA2-IMGtestigo 4.jpg" class="img-circle animated-element-1" alt="Groosman">
+						<div class="caption animated-element-1">
+							<h3>Virginia</h3>
+							<p>Amiga</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 
 	<section id="gift-registry" class="onepage grey-bg">
-	<div class="container">
+		<div class="container">
 
-	<div class="text-center">
+			<div class="text-center">
 
-	<h2 class="headline">Mesa de regalos</h2>
+				<h2 class="headline">Mesa de regalos</h2>
 
-	</div>
+			</div>
 
-	</div>
-	<div class="frasesMax" style="color: #5c5c5c;margin-top: 0px;">
-	Tu presencia es nuestro mayor regalo, pero si deseas obsequiarnos algo te adjuntamos algunas opciones
-	</div>
+		</div>
+		<div class="frasesMax" style="color: #5c5c5c;margin-top: 0px;">
+			Tu presencia es nuestro mayor regalo, pero si deseas obsequiarnos algo te adjuntamos algunas opciones
+		</div>
 	</section>
 
 
 	<section id="gift-logo-section" class="onepage grey-bg">
-	<div class="container contenedorRegalos">
-	<a target="_blank" class="linkRegaloCuadro clearfix col-md-6  animated-element animated fadeInUp" href="https://www.liverpool.com.mx/tienda/home">
-	<div class="clearfix cuadroRegalo">
-	<img src="./invitaciones/admin/imagenes/994/REGALO1-IMGliverpool 2.jpg" class="imagenRegalo" />
-	<div class="textRegalo"> Liverpool </div>
-	</div>
-	</a>
-	<a target="_blank" class="linkRegaloCuadro clearfix col-md-6  animated-element animated fadeInUp" href="https://www.despegar.com.ar">
-	<div class="clearfix cuadroRegalo">
-	<img src="./invitaciones/images/regalo.png" class="imagenRegalo" />
-	<div class="textRegalo"> Luna de Miel </div>
-	</div>
-	</a>
-	</div>
-	<div class="grey-bg cbuBox container">
-	<div data-toggle="collapse" data-target="#cbubody" class="cbu cbuHead"><i style="color: #f05642;" class="fa fa-university"></i> Ver datos bancarios </div>
-	<div class="cbu cbuBody collapse" style="    height: 70px;" id="cbubody"> Titular: XXXXXXXXX XXXXX<br />
-	CBU: 000000000000000000000<br />
-	Alias:<br />
-	CUIL: 22-22222222-2<br />
-	DNI: 000000000</div>
-	</div>
+		<div class="container contenedorRegalos">
+			<a target="_blank" class="linkRegaloCuadro clearfix col-md-6  animated-element animated fadeInUp" href="https://www.liverpool.com.mx/tienda/home">
+				<div class="clearfix cuadroRegalo">
+					<img src="./invitaciones/admin/imagenes/994/REGALO1-IMGliverpool 2.jpg" class="imagenRegalo" />
+					<div class="textRegalo"> Liverpool </div>
+				</div>
+			</a>
+			<a target="_blank" class="linkRegaloCuadro clearfix col-md-6  animated-element animated fadeInUp" href="https://www.despegar.com.ar">
+				<div class="clearfix cuadroRegalo">
+					<img src="./invitaciones/images/regalo.png" class="imagenRegalo" />
+					<div class="textRegalo"> Luna de Miel </div>
+				</div>
+			</a>
+		</div>
+		<div class="grey-bg cbuBox container">
+			<div data-toggle="collapse" data-target="#cbubody" class="cbu cbuHead">
+				<i style="color: #f05642;" class="fa fa-university"></i> 
+				Ver datos bancarios 
+			</div>
+			<div class="cbu cbuBody collapse" style="    height: 70px;" id="cbubody"> 
+				Titular: XXXXXXXXX XXXXX<br />
+				CBU: 000000000000000000000<br />
+				Alias:<br />
+				CUIL: 22-22222222-2<br />
+				DNI: 000000000
+			</div>
+		</div>
+	</section>
+
+	<section id="reserve-image-background" class="footer-background-cover1" style="background-color: #333">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">		
+					<div class="about-section-wraper onepage text-center animated-element-1">		
+						<h2>Confirmar asistencia</h2>
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="frasesMax">
+					MEDIDAS DE SEGURIDAD COVID-19 Tu seguridad es muy importante para nosotros, es por eso que tomaremos todas las medidas de seguridad derivadas de la contingencia de COVID-19, a continuación, enlistamos algunas de ellas: El lugar del evento es medio abierto. Antes de ingresar a las instalaciones, se tomará la temperatura a cada invitado. Cada invitado contará con gel antibacterial. Las mesas estarán conformadas de 6 a 8 personas máximo. Las mesas serán distribuidas respetando la sana distancia entre cada una de ellas. Uso indispensable de cubre boca. En caso de tener alguno de los síntomas relacionados con COVID-19, notifica a los novios. ¡Si te cuidas tú, nos cuidamos todos!
+				</div>
+				<div class="col-lg-10 col-lg-offset-1">
+					<div class="block-box-rsrv">			
+						<form id="block-main-form" method="post" autocomplete="off">
+							<input type="hidden" name="evento" value="994">
+							<div class="controls">
+								<div class="row text-left">
+									<div class="col-md-10 col-md-offset-1 text-center">
+										<div id="success">
+											<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdPUWR295pzTSj0l8dWWxbBn3PfXHFJxDypZNDbrW8Qyh1q2g/viewform?usp=sf_link" class="btn">Confirmar asistencia</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 
 
 
 	<section id="instagram" class="background-cover" style="background-image: url('./invitaciones/images/instagram.jpg');">
-	<div class="container">
-	<div class="row">
-	<div class="col-lg-8 col-lg-offset-2">
-	<div class="hash-box">
-	<div class="text-center">
-	<div class="hash-text"><i class="fa fa-instagram fa-5x"></i></div>
-	<h1 class="hash">
-	#Invitame_oficial
-	</h1>
-	<footer class="bckuote-footer-text"> <a style="color:white" target="_blank" href="https://www.instagram.com/explore/tags/Invitame_oficial">Ver en Instagram</a></footer>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="hash-box">
+						<div class="text-center">
+						<div class="hash-text"><i class="fa fa-instagram fa-5x"></i></div>
+						<h1 class="hash">
+							#BodaAgosyEma
+						</h1>
+						</br>
+						<div class="frasesMax">¡¡¡ Preparate para nuestro gran día !!! </br>
+							Ya podés etiquetarnos en Instagram con nuestro hashtag en tus fotos o videos</div>
+						<a target="_blank" href="https://www.instagram.com/explore/tags/bodaagosyema/" class="btn btn-alt">Ver fotos instagram</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 
-	<section id="instagram" class="background-cover" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('./invitaciones/images/video.jpg');">
+	<!--<section id="instagram" class="background-cover" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('./invitaciones/images/video.jpg');">
 	<div class="container">
 	<div class="row">
 	<div class="col-lg-8 col-lg-offset-2">
@@ -472,105 +468,22 @@
 	</div>
 	</div>
 	</div>
-	</section>
-
-
-	<section id="reserve-image-background" class="footer-background-cover1" style="background-color: #333">
-	<div class="container">
-	<div class="row">
-	<div class="col-xs-12">
-
-	<div class="about-section-wraper onepage text-center animated-element-1">
-
-	<h2>Confirmar asistencia</h2>
-	</div>
-
-	</div>
-	</div>
-	<div class="row">
-	<div class="frasesMax">
-	MEDIDAS DE SEGURIDAD COVID-19 Tu seguridad es muy importante para nosotros, es por eso que tomaremos todas las medidas de seguridad derivadas de la contingencia de COVID-19, a continuación, enlistamos algunas de ellas: El lugar del evento es medio abierto. Antes de ingresar a las instalaciones, se tomará la temperatura a cada invitado. Cada invitado contará con gel antibacterial. Las mesas estarán conformadas de 6 a 8 personas máximo. Las mesas serán distribuidas respetando la sana distancia entre cada una de ellas. Uso indispensable de cubre boca. En caso de tener alguno de los síntomas relacionados con COVID-19, notifica a los novios. ¡Si te cuidas tú, nos cuidamos todos!
-	</div>
-
-	<div class="col-lg-10 col-lg-offset-1">
-
-
-
-	<div class="block-box-rsrv">
-
-	<form id="block-main-form" method="post" autocomplete="off">
-	<input type="hidden" name="evento" value="994">
-	<div class="controls">
-	<div class="row text-left">
-
-	<div class="col-md-6">
-	<div class="form-group">
-	<label for="name">Nombre</label>
-	<input type="text" id="name" name="name" class="form-control" readonly="true" value="Hector Ochoa Altamirano">
-	</div>
-	</div>
-
-	<div class="col-md-6">
-	<div class="form-group">
-	<label for="asistencia">Confirmo que:</label><br>
-	<div class="col-12">
-	<input type="radio" id="asistire" name="asistencia" value="Si" checked>
-	<label for="asistire">Asistiré</label><br>
-	</div>
-	<div class="col-12">
-	<input type="radio" id="noasistire" name="asistencia" value="No">
-	<label for="noasistire">No asistiré</label><br>
-	</div>
-	</div>
-	</div>
-
-	<div>
-	<div class="col-md-10 col-md-offset-1">
-	<div class="form-group">
-	<label for="message">Mensaje</label>
-	<textarea maxlength="150" class="form-control" id="message" name="message" rows="6" style="margin-top: 0px; margin-bottom: 0px; height: 120px;" placeholder=" Puedes comentarnos si tienes alguna restricción alimentaria y también dejar un bonito mensaje en el libro de firmas! "></textarea>
-	</div>
-	</div>
-	</div>
-	<div class="col-md-10 col-md-offset-1 text-center">
-	<div id="success">
-	<button id="submit" type="submit" name="submit" class="estatus btn btn-medium btn-block">Enviar</button>
-	</div>
-	</div>
-	</div>
-	</div>
-	</form>
-
-	</div>
-
-	<div class="wspBoton aa"><i class="fa fa-whatsapp" aria-hidden="true"></i>
-	<a target="_blank" href="https://api.whatsapp.com/send?phone=+5215611881825&text=Confirmo asistencia al evento de  Julia y Martin"> Confirmar ahora</a>
-	</div>
-	</div>
-
-	</div>
-	</div>
-	</section>
+	</section>-->
 
 
 	<footer id="footer" class="footer-background-cover screen-adapter" style="background-image: url('./invitaciones/admin/imagenes/994/IMAGEN-FOOTER624.jpg');">
-	<div class="container">
-	<div class="row">
-
-	<div class="col-lg-8 col-lg-offset-2">
-
-	<div class="wraper-footer text-center animated-element-1 delay1" style="bottom: -30px;position: fixed;left: 50%;transform: translate(-50%, 0%);width: 100%;">
-	<div class="margin">
-	<h1 style="font-family:Josefin Slab,Arial,sans-serif">Agos<span class="logo-slider"> &amp; </span>Ema</h1>
-	<h2 class="margin">Te esperamos</h2>
-	</div>
-
-	</div>
-
-	</div>
-
-	</div>
-	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wraper-footer text-center animated-element-1 delay1" style="bottom: -30px;position: fixed;left: 50%;transform: translate(-50%, 0%);width: 100%;">
+						<div class="margin">
+							<h1 style="font-family:Josefin Slab,Arial,sans-serif">Agos<span class="logo-slider"> &amp; </span>Ema</h1>
+							<h2 class="margin">Te esperamos</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 
 	<div class="col-md-12 queresuna clearfix">
@@ -609,9 +522,9 @@
 	</div>
 	</div>
 	</div>-->
-	<a href="https://wa.link/hcpvgw" class="wsp gaction" data-track="Whatsaap" target="_blank">
+	<!--<a href="https://wa.link/hcpvgw" class="wsp gaction" data-track="Whatsaap" target="_blank">
 		<i class="fa fa-whatsapp flotante gaction" data-track="Whatsaap"></i>
-	</a>
+	</a>-->
 	<script>				
 		$( document ).ready(function() {
 			$("#comboDemos").change( function() { 
